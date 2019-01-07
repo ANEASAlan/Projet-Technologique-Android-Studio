@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="ProjetTechnologique" external.linked.project.path="/autofs/unitytravail/travail/aaneas/ProjetTechnologique" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="java-gradle" name="Java-Gradle">
+      <configuration>
+        <option name="BUILD_FOLDER_PATH" value="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/build" />
+        <option name="BUILDABLE" value="false" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file:///autofs/unitytravail/travail/aaneas/ProjetTechnologique">
+      <excludeFolder url="file:///autofs/unitytravail/travail/aaneas/ProjetTechnologique/.gradle" />
+      <excludeFolder url="file:///autofs/unitytravail/travail/aaneas/ProjetTechnologique/build" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
