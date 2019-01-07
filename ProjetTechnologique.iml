@@ -12,7 +12,6 @@
     <exclude-output />
     <content url="file:///autofs/unitytravail/travail/aaneas/ProjetTechnologique">
       <excludeFolder url="file:///autofs/unitytravail/travail/aaneas/ProjetTechnologique/.gradle" />
-      <excludeFolder url="file:///autofs/unitytravail/travail/aaneas/ProjetTechnologique/build" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

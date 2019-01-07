@@ -23,7 +23,8 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/mononokehime"
-        tools:layout_editor_absoluteY="138dp" />
+        tools:layout_editor_absoluteY="138dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageViewColor"
@@ -42,7 +43,8 @@
         android:layout_marginTop="110dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/color" />
+        app:srcCompat="@drawable/color"
+        android:layout_marginLeft="110dp" />
 
     <ImageView
         android:id="@+id/imageViewBlack"
@@ -52,7 +54,8 @@
         android:layout_marginTop="90dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/colorblack" />
+        app:srcCompat="@drawable/colorblack"
+        android:layout_marginLeft="244dp" />
 
     <Spinner
         android:id="@+id/spinner"

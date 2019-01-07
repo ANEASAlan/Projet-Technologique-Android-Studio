@@ -43,7 +43,7 @@ public class ScriptC_brightness extends ScriptC {
 
     public  ScriptC_brightness(RenderScript rs, Resources resources, int id) {
         super(rs, resources, id);
-        mExportVar_BrightnessScale = 0.f;
+        mExportVar_BrightnessScale = 0.294117659f;
         __F32 = Element.F32(rs);
         __U8_4 = Element.U8_4(rs);
     }

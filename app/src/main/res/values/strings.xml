@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">ProjetTechnologique</string>
+    <string name="app_name">AfficherImageNew</string>
+    <string name="gray">Gray</string>
+    <string-array name="Monspinner">
+        <item>Sans filtre</item>
+        <item>Griser pixel par pixel</item>
+        <item>Griser par grille de pixels</item>
+        <item>Griser RS</item>
+        <item>Colorier</item>
+        <item>Colorier RS</item>
+        <item>Inverser (à faire)</item>
+        <item>Inverser RS</item>
+        <item>Rendre plus lumineux (à faire)</item>
+        <item>Rendre plus lumineux RS</item>
+        <item>Garder une couleur</item>
+        <item>Garder une couleur RS</item>
+    </string-array>
+    <string name="imageview">ImageView</string>
 </resources>
