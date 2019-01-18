@@ -8,12 +8,14 @@
         <item>Griser RS</item>
         <item>Colorier</item>
         <item>Colorier RS</item>
-        <item>Inverser (à faire)</item>
+        <item>Inverser</item>
         <item>Inverser RS</item>
-        <item>Rendre plus lumineux (à faire)</item>
+        <item>Rendre plus lumineux</item>
         <item>Rendre plus lumineux RS</item>
         <item>Garder une couleur</item>
         <item>Garder une couleur RS</item>
+        <item>Contraste gris</item>
+        <item>Contraste gris RS</item>
     </string-array>
     <string name="imageview">ImageView</string>
 </resources>

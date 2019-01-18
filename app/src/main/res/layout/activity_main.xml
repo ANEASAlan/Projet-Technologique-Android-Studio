@@ -4,33 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.aaneas.afficherimagenew.MainActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.467"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.873" />
+    tools:context="com.example.aaneas.projettechnologique.MainActivity">
 
     <ImageView
         android:id="@+id/imageViewMononoke"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="409dp"
+        android:layout_height="202dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/mononokehime"
-        tools:layout_editor_absoluteY="138dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageViewColor"
-        android:layout_width="136dp"
-        android:layout_height="182dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="74dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/colorwhite" />
@@ -39,23 +31,21 @@
         android:id="@+id/imageViewWhite"
         android:layout_width="132dp"
         android:layout_height="91dp"
-        android:layout_marginStart="110dp"
-        android:layout_marginTop="110dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="94dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/color"
-        android:layout_marginLeft="110dp" />
+        app:srcCompat="@drawable/color" />
 
     <ImageView
         android:id="@+id/imageViewBlack"
         android:layout_width="140dp"
         android:layout_height="131dp"
-        android:layout_marginStart="244dp"
-        android:layout_marginTop="90dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="74dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/colorblack"
-        android:layout_marginLeft="244dp" />
+        app:srcCompat="@drawable/colorblack" />
 
     <Spinner
         android:id="@+id/spinner"
@@ -73,5 +63,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageViewWoman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/woman"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewGrayscale" />
+
+    <ImageView
+        android:id="@+id/imageViewGrayscale"
+        android:layout_width="152dp"
+        android:layout_height="171dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="44dp"
+        android:src="@drawable/grayscale2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

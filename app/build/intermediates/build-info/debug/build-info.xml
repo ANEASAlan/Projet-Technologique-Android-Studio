@@ -2,74 +2,35 @@
 <instant-run
     abi="x86"
     api-level="27"
-    build-mode="FULL"
+    build-mode="HOT_WARM"
     density="420dpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1546884598655"
+    timestamp="1547570379879"
     token="2948379578687012747"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="2860" />
+        duration="1631" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="1100" />
     <task
         name="instant-run-transform"
-        duration="215" />
+        duration="1043" />
     <task
         name="verifier"
         duration="96" />
 
     <artifact
-        location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-        type="SPLIT" />
-    <artifact
-        location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         build-mode="FULL"
-        timestamp="1546884598655"
+        timestamp="1547570066639"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
         <artifact
             location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
@@ -84,6 +45,9 @@
             type="SPLIT" />
         <artifact
             location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -106,6 +70,14 @@
         <artifact
             location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1547570379879"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/autofs/unitytravail/travail/aaneas/ProjetTechnologique/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

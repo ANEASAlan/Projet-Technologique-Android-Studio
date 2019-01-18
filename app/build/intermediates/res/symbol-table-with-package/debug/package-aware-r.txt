@@ -614,6 +614,9 @@ drawable abc_vector_test
 drawable color
 drawable colorblack
 drawable colorwhite
+drawable grayscale
+drawable grayscale2
+drawable greymononoke
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable mononokehime
@@ -631,6 +634,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable woman
 id ALT
 id CTRL
 id FUNCTION
@@ -695,8 +699,10 @@ id ifRoom
 id image
 id imageViewBlack
 id imageViewColor
+id imageViewGrayscale
 id imageViewMononoke
 id imageViewWhite
+id imageViewWoman
 id info
 id invisible
 id italic
@@ -832,6 +838,7 @@ mipmap ic_launcher_round
 raw brightness
 raw colorize
 raw colorkeep
+raw contrast
 raw grey
 raw invert
 string abc_action_bar_home_description
